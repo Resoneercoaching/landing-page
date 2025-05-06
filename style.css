@@ -1,0 +1,76 @@
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  background-color: #fffdfc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #fff0f0;
+  padding: 60px 20px;
+  text-align: center;
+}
+header h1 {
+  font-size: 2.4em;
+  color: #d1495b;
+  margin-bottom: 10px;
+}
+header p {
+  font-size: 1.2em;
+  color: #444;
+}
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 40px 20px;
+}
+.section-title {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #c03f4f;
+}
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.features ul, .pricing ul {
+  padding-left: 20px;
+}
+.features li, .pricing li {
+  line-height: 1.8;
+}
+.btn {
+  display: inline-block;
+  background-color: #d1495b;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 1em;
+  margin-top: 30px;
+}
+.testimonials {
+  background: #fdf3f3;
+  padding: 40px 20px;
+}
+.testimonial {
+  border-left: 4px solid #d1495b;
+  padding-left: 16px;
+  margin-bottom: 20px;
+}
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 0.9em;
+  color: #888;
+}
